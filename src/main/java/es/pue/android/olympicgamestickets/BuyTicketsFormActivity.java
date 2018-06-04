@@ -10,6 +10,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class BuyTicketsFormActivity extends AppCompatActivity {
 
@@ -19,6 +21,10 @@ public class BuyTicketsFormActivity extends AppCompatActivity {
     private Spinner spSport;
     private ArrayList<Double> ticketPricesAdult;
     private ArrayList<Double> ticketPricesChildren;
+    /**
+     * Better way to use sports array (res/values/sports.xml) from code.
+     */
+    //final List<String> sports = Arrays.asList(getResources().getStringArray(R.array.sports));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
