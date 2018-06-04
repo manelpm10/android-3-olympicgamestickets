@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sports">
+        <item></item>
+        <item>@string/litsArchery</item>
+        <item>@string/litsJabalin</item>
+        <item>@string/litsThrowHammer</item>
+    </string-array>
+</resources>

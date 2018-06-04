@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OlympicGamesTickets</string>
+    <string name="litsArchery">Archery</string>
+    <string name="litsThrowHammer">Throw hammer</string>
+    <string name="litsJabalin">Jabalin</string>
+    <string name="labelChooseSport">Choose sport:</string>
+    <string name="labelNumTicketsAdult">Num tickets adult:</string>
+    <string name="labelNumTicketsChildren">Num tickets children:</string>
+    <string name="labelTotalPrice">Total price:</string>
+    <string name="litsBuy">Buy</string>
+</resources>
