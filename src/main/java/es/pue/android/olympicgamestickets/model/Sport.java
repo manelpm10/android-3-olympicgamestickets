@@ -1,6 +1,8 @@
 package es.pue.android.olympicgamestickets.model;
 
-public class Sport {
+import java.io.Serializable;
+
+public class Sport implements Serializable{
     private int id;
     private String name;
     private double priceAdult;
